@@ -1,48 +1,88 @@
 /* global */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Inter', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-header{
-    height: 650px;
-    width: 100%;
-    margin-bottom:100px ;
+.bg-honda {
+  background-color: #264653;
 }
-.bg-honda{
-    background-color: #264653;
-    }
-.btn-honda{
-background-color: #E76F51;
+.btn-honda {
+  background-color: #e76f51;
+  font-weight: 500;
 }
-.text-orange-honda{
-    color: #E76F51;
+.text-orange-honda {
+  color: #e76f51;
+}
+section {
+  margin-bottom: 130px;
 }
 
+/* header */
+header {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.section-header-honda {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 5rem;
+}
+.section-header-honda-Mob {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.section-text-honda {
+  font-weight: 300;
+  color: #e0e0e0;
+  margin-bottom: 0;
+  width: 85%;
+}
 
 /* clients */
-.text-sky-honda{
-    color: #23A6F0;
-    ;
+.text-sky-honda {
+  color: #23a6f0;
+}
+.clients-text {
+  color: #6c6c6c;
+  width: 85%;
+  margin: 0 auto 10px;
+}
+
+.img-honda {
+  width: 75%;
+  margin: 0 auto;
 }
 /* featured */
-.grayscale-honda img{
-filter: grayscale(100%);
-margin: 90px 0 ;
+.grayscale-honda img {
+  filter: grayscale(100%);
+  margin: 90px 0;
 }
 /* faq */
 
-#faq-section-honda{
-    margin-bottom: 120px;
+.faq-img-mob-honda {
+  width: 85%;
 }
-.faq-img-mob-honda{
-    width: 85%;
+#accordion-header-honda-1,
+#accordion-header-honda-2,
+#accordion-header-honda-3,
+#accordion-header-honda-4 {
+  color: #383838;
+  font-weight: 600;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  border-radius: 5px;
 }
-/* .img-faq-honda{
-    width: 100%;
-   
-} */
+.accordion-text-honda {
+  color: #7e848c;
+  border-radius: 20px;
+}
+/* team section */
+.social-icon-honda{
+    color: #a4a6a8;
+    margin: auto;
+}
