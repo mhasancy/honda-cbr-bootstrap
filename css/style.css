@@ -1,12 +1,48 @@
+/* global */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
+    font-family: 'Poppins', sans-serif;
     font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
 }
-.honda-grayscale img{
+header{
+    height: 650px;
+    width: 100%;
+    margin-bottom:100px ;
+}
+.bg-honda{
+    background-color: #264653;
+    }
+.btn-honda{
+background-color: #E76F51;
+}
+.text-orange-honda{
+    color: #E76F51;
+}
+
+
+/* clients */
+.text-sky-honda{
+    color: #23A6F0;
+    ;
+}
+/* featured */
+.grayscale-honda img{
 filter: grayscale(100%);
+margin: 90px 0 ;
 }
+/* faq */
+
+#faq-section-honda{
+    margin-bottom: 120px;
+}
+.faq-img-mob-honda{
+    width: 85%;
+}
+/* .img-faq-honda{
+    width: 100%;
+   
+} */
